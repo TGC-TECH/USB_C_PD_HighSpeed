@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB7050P-I_KDX")(type "KiCad")(uri "C:/Users/tobyc/Documents/USB_C_PD_HighSpeed/Hardware/KiCad/USB7050P-I_KDX.kicad_sym")(options "")(descr ""))
+)

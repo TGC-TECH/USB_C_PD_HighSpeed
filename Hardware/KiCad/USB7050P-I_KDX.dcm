@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB7050P-I_KDX
+D USB Interface IC 4 Port USB3.2 Gen1 - PD upstream, PD Type-Cs and TypeAs downstream ports (industrial temp)
+K
+F https://www.mouser.ca/datasheet/2/268/USB7050_Data_Sheet_DS00002672E-3324429.pdf
+$ENDCMP
+#
+#End Doc Library
