@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "4aa960eb-4a12-47e8-853d-618bd07cfd56")
+	(uuid "3da7a47b-55b0-427a-b462-59b654d8b2ad")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle"
@@ -930,18 +930,62 @@
 			)
 		)
 	)
+	(rectangle
+		(start 13.97 13.97)
+		(end 165.1 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e1d40fc-4b04-4528-a598-4771b0d81355)
+	)
+	(rectangle
+		(start 167.64 36.83)
+		(end 280.67 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a9c1cfa8-ecb3-4943-b2d2-47aa7eb57060)
+	)
+	(text "Uplink Recepticle\n"
+		(exclude_from_sim no)
+		(at 203.2 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b913c03-9d41-425f-aafb-c267c7b07976")
+	)
+	(text "Output Recepticles"
+		(exclude_from_sim no)
+		(at 43.942 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9ce6037-bdfc-427d-b23d-aa33c1db2b59")
+	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
-		(at 219.71 109.22 0)
+		(at 111.76 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8096d3a5-6ce6-4f0f-b05b-948d8f03bd71")
-		(property "Reference" "J1"
-			(at 219.71 76.2 0)
+		(uuid "068337c5-31c7-4d4e-a1b4-839b0f683288")
+		(property "Reference" "J4"
+			(at 111.76 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,7 +993,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle"
-			(at 219.71 78.74 0)
+			(at 111.76 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +1001,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
-			(at 223.52 109.22 0)
+			(at 115.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +1010,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 223.52 109.22 0)
+			(at 115.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +1019,7 @@
 			)
 		)
 		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 219.71 109.22 0)
+			(at 111.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,206 +1028,635 @@
 			)
 		)
 		(pin "B3"
-			(uuid "059d436a-8204-47e4-abe1-6e2a264eaf62")
+			(uuid "ccc7003a-7d53-4dd8-8a45-381311b108c9")
 		)
 		(pin "A1"
-			(uuid "0c9e1ff6-5d51-4bec-b7eb-1c287d77a776")
+			(uuid "eec19948-76bb-45ae-9034-54c162175ea7")
 		)
 		(pin "A7"
-			(uuid "6578ad35-b136-4569-af3b-d37cc1e417e0")
+			(uuid "2b233e85-dd0a-4bbe-9d83-e349449c79fc")
 		)
 		(pin "B4"
-			(uuid "8dc0cc87-04f7-43d5-b6b5-22889acf1b76")
+			(uuid "2dc5e3e3-7249-4676-8c31-ab04c3988b32")
 		)
 		(pin "B12"
-			(uuid "13a728d2-e7b9-4cda-9b64-151a789a26ae")
+			(uuid "080859a9-3cf9-4fbd-aaa4-e537195048e8")
 		)
 		(pin "B6"
-			(uuid "c9004583-c267-4640-9140-3f5fde1c2a9b")
+			(uuid "ed22a105-8e5c-4d31-92f8-045014844666")
 		)
 		(pin "A11"
-			(uuid "f7b048dc-44fc-4629-a8b1-e6b89f74b266")
+			(uuid "b831c524-b037-411f-b2eb-11e37fba3fb9")
 		)
 		(pin "A2"
-			(uuid "34fe94e0-e52b-4e55-bdd6-a91b19f4fd41")
+			(uuid "768a3d79-95bc-41b8-be6b-4a95590822ee")
 		)
 		(pin "A12"
-			(uuid "1916ab51-cd33-4964-9855-e8c0a30e7f4e")
+			(uuid "b7c646a7-0622-41e6-a0a3-fec0cfad1054")
 		)
 		(pin "A9"
-			(uuid "a6f3991e-b46c-4384-92d2-e994f6170d76")
+			(uuid "6aab9788-bb3e-4268-8ff1-8a571276e613")
 		)
 		(pin "B5"
-			(uuid "45761e1f-c264-49dc-8005-a072d2c0716a")
+			(uuid "08cd6ce7-c79b-4ce5-b610-e23b3a639606")
 		)
 		(pin "B8"
-			(uuid "296d0a6c-5246-48fd-b401-13fffa2f99d6")
+			(uuid "2898ffc7-7676-4759-81e6-98ac55a9d08c")
 		)
 		(pin "B11"
-			(uuid "75132723-e207-40f0-98df-ead214b335f2")
+			(uuid "db57e72a-3ca4-4ea8-aec4-03a13a45cca6")
 		)
 		(pin "B1"
-			(uuid "7b006813-db07-4237-b0c7-86927a348fcc")
+			(uuid "f56b3374-a7bb-48ba-b2ba-f7a51515bf51")
 		)
 		(pin "A10"
-			(uuid "5f28d8b6-0b5e-4ed0-aacd-9baf901529bc")
+			(uuid "3b7d2c81-b6ff-4605-9b11-a989b0f73e8d")
 		)
 		(pin "A4"
-			(uuid "a593b2e0-c70d-4eea-812e-8ca7c105e32a")
+			(uuid "22293d83-d663-4476-84bd-d8cadbe49772")
 		)
 		(pin "A5"
-			(uuid "d10683a4-157a-4939-9a43-2bc49117f62d")
+			(uuid "426210de-3891-47da-af81-bd385e7635f8")
 		)
 		(pin "B10"
-			(uuid "97f375d0-aad1-4df4-abad-2ff4aac419f8")
+			(uuid "e9abe018-5b78-4ef3-bb7e-c050d759e9af")
 		)
 		(pin "B9"
-			(uuid "be78656a-c961-4c88-972f-6f9849bafc64")
+			(uuid "841d708f-61af-4b4c-b496-7a8e0f25da81")
 		)
 		(pin "B7"
-			(uuid "2c487471-529e-4a99-9930-e49cb591f187")
+			(uuid "f757f279-cf46-46d3-b651-c8ec1e4a6854")
 		)
 		(pin "S1"
-			(uuid "b5d74d47-d026-442a-a975-806dc8109f8e")
+			(uuid "8fee4b24-f8db-43cb-a603-3a9d20bc33d3")
 		)
 		(pin "A6"
-			(uuid "6fc15398-15cf-47d3-9396-085ac24763a9")
+			(uuid "3853217f-b008-4da2-be3c-ca34a5117eb0")
 		)
 		(pin "B2"
-			(uuid "5e6c18c4-8045-47d8-8487-2bfcbc99173b")
+			(uuid "6eaf6e81-325e-41cb-bac4-4e6f62c5ed9c")
 		)
 		(pin "A3"
-			(uuid "cf5ae8f3-3c79-425c-b9ff-5ff4d330288a")
+			(uuid "b75b3fe8-1a5e-41d8-840d-0ea0edf29e41")
 		)
 		(pin "A8"
-			(uuid "7dee1fc5-5f51-4de4-9130-595b6c3d46fa")
+			(uuid "8a672bd5-31e5-4f97-8c5b-f7ba547d446e")
 		)
 		(instances
 			(project "USB_C_PD_HUB"
-				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56"
-					(reference "J1")
+				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56/166a307b-ab61-45df-ac2e-4fa9cfd52136"
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 187.96 72.39)
-		(size 81.28 83.82)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle")
+		(at 201.93 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "166a307b-ab61-45df-ac2e-4fa9cfd52136")
-		(property "Sheetname" "Ports"
-			(at 187.96 71.6784 0)
+		(uuid "0f5fe5f4-36e5-4329-b0ef-8b9f10268a94")
+		(property "Reference" "J6"
+			(at 201.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ports.kicad_sch"
-			(at 187.96 156.7946 0)
+		(property "Value" "USB_C_Receptacle"
+			(at 201.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(at 201.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "819e08f8-89e8-4864-a2ec-43bdff90889f")
+		)
+		(pin "A1"
+			(uuid "28b99890-2a69-4c1f-a8cc-9ba25655115a")
+		)
+		(pin "A7"
+			(uuid "315f4b0e-5372-4e8d-aa28-bc7e7594e4ca")
+		)
+		(pin "B4"
+			(uuid "de8af0d3-5995-4285-af9b-2539c4b936ee")
+		)
+		(pin "B12"
+			(uuid "2bc243a2-ff45-4431-9e92-6959d0eb6b40")
+		)
+		(pin "B6"
+			(uuid "0907466d-183e-4cf2-b747-715c5c614f22")
+		)
+		(pin "A11"
+			(uuid "a066119c-9c35-4bb7-8063-c59350638132")
+		)
+		(pin "A2"
+			(uuid "0557d8c8-2b84-41b3-825b-eb25f0b42704")
+		)
+		(pin "A12"
+			(uuid "ec6dddbb-17d3-467c-80b8-588846334533")
+		)
+		(pin "A9"
+			(uuid "9d3a58bb-eb77-4123-82b7-84fd971f9f79")
+		)
+		(pin "B5"
+			(uuid "62837a51-27f6-46e3-9ca3-c74ab87c48e8")
+		)
+		(pin "B8"
+			(uuid "690c7833-f57b-4d58-8d53-9580fd716e3e")
+		)
+		(pin "B11"
+			(uuid "5b250f3a-f446-4dba-aae7-1080aa72dcd5")
+		)
+		(pin "B1"
+			(uuid "b441ed98-64ec-4c8a-919b-974aa70d3f2d")
+		)
+		(pin "A10"
+			(uuid "c9f82190-b977-43b0-a983-2201fbb942bb")
+		)
+		(pin "A4"
+			(uuid "8e057b6b-12bb-4949-abeb-f4fc279ddcd3")
+		)
+		(pin "A5"
+			(uuid "8c4286b5-fe44-4cd8-ada0-7b5d29c5d687")
+		)
+		(pin "B10"
+			(uuid "e3f8f2db-7d7d-4787-aeb0-711be4999665")
+		)
+		(pin "B9"
+			(uuid "b763d25c-e483-4eb1-b28b-303764ae2128")
+		)
+		(pin "B7"
+			(uuid "ea4527bd-0f08-4622-9bf8-b40e414301ec")
+		)
+		(pin "S1"
+			(uuid "49d18a59-7389-45cc-9f79-1ece09bb8f41")
+		)
+		(pin "A6"
+			(uuid "9b2d9f8c-add5-4699-8b52-9957e5e68004")
+		)
+		(pin "B2"
+			(uuid "2364d8bb-6ce2-47d1-96ab-ca8af3aab6d3")
+		)
+		(pin "A3"
+			(uuid "9c20a631-cf78-4e5f-8e04-5f86954e7bc9")
+		)
+		(pin "A8"
+			(uuid "93a4f7f5-538f-404c-894e-c6d8171ee431")
 		)
 		(instances
 			(project "USB_C_PD_HUB"
-				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56"
-					(page "3")
+				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56/166a307b-ab61-45df-ac2e-4fa9cfd52136"
+					(reference "J6")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 181.61 21.59)
-		(size 96.52 44.45)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle")
+		(at 113.03 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "428463f4-8ce7-4207-bdb7-37074430b023")
-		(property "Sheetname" "Power"
-			(at 181.61 20.8784 0)
+		(uuid "50a41192-1ea4-44be-bda5-4ea897fb4123")
+		(property "Reference" "J5"
+			(at 113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 181.61 66.6246 0)
+		(property "Value" "USB_C_Receptacle"
+			(at 113.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "bbec6af3-7977-43d2-b136-0a7b182a749a")
+		)
+		(pin "A1"
+			(uuid "d4420091-d623-4366-8fe8-efc1183c87bc")
+		)
+		(pin "A7"
+			(uuid "466d4ec6-5088-4db5-86e7-406932eb689f")
+		)
+		(pin "B4"
+			(uuid "395c457a-e6c2-4b25-b120-21d320cfeef3")
+		)
+		(pin "B12"
+			(uuid "0db85ec6-ae9d-4044-9e5a-f045f7f72f70")
+		)
+		(pin "B6"
+			(uuid "1749f904-c50b-4cf4-ae46-bb8ed9593fff")
+		)
+		(pin "A11"
+			(uuid "485b0069-8fa3-423e-b4a1-c5171d351fab")
+		)
+		(pin "A2"
+			(uuid "b16268ed-8e92-4a80-b67d-8dfb6b04cfb8")
+		)
+		(pin "A12"
+			(uuid "d712d478-c968-49eb-93ef-24f24a0dcf2e")
+		)
+		(pin "A9"
+			(uuid "003bc545-6e38-4586-b87f-036f5c98806a")
+		)
+		(pin "B5"
+			(uuid "aa3a4989-386e-4ab9-91ae-ea6b54684aae")
+		)
+		(pin "B8"
+			(uuid "374da670-0c65-4047-9fab-6e438bcbb220")
+		)
+		(pin "B11"
+			(uuid "b6b51b58-d747-4e72-ae8a-5c1f6d84ffc4")
+		)
+		(pin "B1"
+			(uuid "d1467d4e-48e1-4a6e-9b77-aac9d58dd1ac")
+		)
+		(pin "A10"
+			(uuid "fba0a59c-fd2a-4580-a5f6-d581a2611bd0")
+		)
+		(pin "A4"
+			(uuid "95fd6d3a-e696-42fe-af2f-24438f52775c")
+		)
+		(pin "A5"
+			(uuid "00a98856-af4d-4f93-897b-e70f197e9275")
+		)
+		(pin "B10"
+			(uuid "a62dca6a-127e-4061-bede-7a38c6d2640d")
+		)
+		(pin "B9"
+			(uuid "11731164-c06a-43ce-8608-44a95d8a3248")
+		)
+		(pin "B7"
+			(uuid "b7e81fee-4fdf-4f99-bb5b-64e619aa067a")
+		)
+		(pin "S1"
+			(uuid "f6d1fe7b-c376-4403-a26f-d11f1a9c2083")
+		)
+		(pin "A6"
+			(uuid "682f1b34-9c28-4531-9c9d-8051eba212f0")
+		)
+		(pin "B2"
+			(uuid "26fbf101-e420-4c15-a855-eddec6ca3991")
+		)
+		(pin "A3"
+			(uuid "ebffdb46-91ff-49c2-8892-6d12cf57f01b")
+		)
+		(pin "A8"
+			(uuid "b1c1c535-ad7c-431a-b093-f463eeff79b4")
 		)
 		(instances
 			(project "USB_C_PD_HUB"
-				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56"
-					(page "4")
+				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56/166a307b-ab61-45df-ac2e-4fa9cfd52136"
+					(reference "J5")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 57.15 27.94)
-		(size 110.49 149.86)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle")
+		(at 43.18 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9037348b-65a4-4c9a-925c-99409b8deadf")
-		(property "Sheetname" "Hub IC"
-			(at 57.15 27.2284 0)
+		(uuid "8b77dcd9-0ae6-49f4-b50a-98bd3aa09431")
+		(property "Reference" "J3"
+			(at 43.18 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Hub_IC.sch.kicad_sch"
-			(at 57.15 178.3846 0)
+		(property "Value" "USB_C_Receptacle"
+			(at 43.18 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+			(at 46.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 46.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(at 43.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "a15c2f95-8eb0-493d-9be1-c6875621c516")
+		)
+		(pin "A1"
+			(uuid "b7113987-7249-4ab3-9c32-21be0b950ab1")
+		)
+		(pin "A7"
+			(uuid "1499a4fd-d590-4aba-8337-e580680bd26c")
+		)
+		(pin "B4"
+			(uuid "8dba461e-ef92-44bc-ba68-d6a3a3d43179")
+		)
+		(pin "B12"
+			(uuid "6460db52-c0d6-42a0-9953-7235fa3af02e")
+		)
+		(pin "B6"
+			(uuid "b09c2dce-e572-4a06-bb09-485ce9a43d7a")
+		)
+		(pin "A11"
+			(uuid "81d00f57-250e-407a-bc6c-9e5db4f23d66")
+		)
+		(pin "A2"
+			(uuid "dcb15094-5cc5-4e15-a1d5-448f9086d933")
+		)
+		(pin "A12"
+			(uuid "3d61a5e6-e159-4c53-b2cc-f941cc838335")
+		)
+		(pin "A9"
+			(uuid "0a83d7ed-6874-4f20-8b2e-f024dbac0724")
+		)
+		(pin "B5"
+			(uuid "b59cf421-f285-4e64-b0f5-ae76bc6f0dac")
+		)
+		(pin "B8"
+			(uuid "d002af38-6b8b-42b3-b6ac-11e9ab5abad5")
+		)
+		(pin "B11"
+			(uuid "99db324d-50c3-440c-9fd3-6294685121f4")
+		)
+		(pin "B1"
+			(uuid "3c6c079f-a7a4-4435-905a-a32b30ed81fa")
+		)
+		(pin "A10"
+			(uuid "71549a94-e369-4737-82a0-89ff7ce74b61")
+		)
+		(pin "A4"
+			(uuid "404e2384-3f76-493f-a32b-869207dfbf1f")
+		)
+		(pin "A5"
+			(uuid "3c545aef-5d9d-4118-b9eb-93d6de1f3417")
+		)
+		(pin "B10"
+			(uuid "f27c9d74-6359-45d6-8bda-04e02de59bef")
+		)
+		(pin "B9"
+			(uuid "e4e5a8a2-1ff0-41af-9009-6bccb36c14c6")
+		)
+		(pin "B7"
+			(uuid "e80ab14c-d11d-444f-b18a-1d787aa81146")
+		)
+		(pin "S1"
+			(uuid "7e49bf6d-085e-45b3-9d34-32afada84eb9")
+		)
+		(pin "A6"
+			(uuid "8bd0f131-7c57-4d01-b267-7dfb56159ca7")
+		)
+		(pin "B2"
+			(uuid "cf9fc19b-4e3b-42b4-b8af-4df9bda4ecd1")
+		)
+		(pin "A3"
+			(uuid "71a00aec-eb52-4217-a3ea-1fcab403d0a8")
+		)
+		(pin "A8"
+			(uuid "5a34d5d0-eca8-4777-ac72-2d69ef95adcb")
 		)
 		(instances
 			(project "USB_C_PD_HUB"
-				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56"
-					(page "2")
+				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56/166a307b-ab61-45df-ac2e-4fa9cfd52136"
+					(reference "J3")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle")
+		(at 44.45 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd3350f8-d896-4684-bf57-2cb504c4e809")
+		(property "Reference" "J2"
+			(at 44.45 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B3"
+			(uuid "c5d0bb51-5f7f-4e5b-a5ac-2b16c4cf5200")
+		)
+		(pin "A1"
+			(uuid "9d89e190-a37c-44b3-ae88-9b318e42ab71")
+		)
+		(pin "A7"
+			(uuid "ec354ea3-aa4c-4605-af03-a30bf39c8b5e")
+		)
+		(pin "B4"
+			(uuid "152edff2-69a2-41fa-83a9-0ca2e5936819")
+		)
+		(pin "B12"
+			(uuid "d4fa70b3-b54c-4825-8831-88fb4b68b1d0")
+		)
+		(pin "B6"
+			(uuid "ef877161-0902-4971-a4b5-5ba74f362ca2")
+		)
+		(pin "A11"
+			(uuid "628883d9-6968-469c-999a-1a78e3c7d4e7")
+		)
+		(pin "A2"
+			(uuid "bc422410-7d5f-4a17-b22f-150e060fe0ae")
+		)
+		(pin "A12"
+			(uuid "f1d45dd8-41a0-4396-acce-359403699444")
+		)
+		(pin "A9"
+			(uuid "cfe58e29-80de-4263-b4be-93b86237d58d")
+		)
+		(pin "B5"
+			(uuid "31977566-0776-424c-8d56-3676cb08827a")
+		)
+		(pin "B8"
+			(uuid "08ce125f-e79f-4e42-849c-67d21a08044c")
+		)
+		(pin "B11"
+			(uuid "f474f136-8289-4bf9-b5b8-c361f7a829c5")
+		)
+		(pin "B1"
+			(uuid "07976d0e-5976-4906-bdf5-de35d8f7c263")
+		)
+		(pin "A10"
+			(uuid "c5619568-4b92-46df-bdb1-83d46efb47b3")
+		)
+		(pin "A4"
+			(uuid "ea7704f8-0180-4238-ac39-0838de0ddab4")
+		)
+		(pin "A5"
+			(uuid "3da32d91-b67f-4b76-8f87-6a51af90d930")
+		)
+		(pin "B10"
+			(uuid "1a3769e2-874a-4b4c-b8ba-875baf57504c")
+		)
+		(pin "B9"
+			(uuid "6887224d-0568-4ed2-9d79-aaa1e8da1953")
+		)
+		(pin "B7"
+			(uuid "30ec07ec-61c2-424c-b3c4-da88218f760c")
+		)
+		(pin "S1"
+			(uuid "5b1c4824-6e31-4853-a347-a2481cfa0c29")
+		)
+		(pin "A6"
+			(uuid "be2a43a6-433e-4a2b-9502-02ca703347b3")
+		)
+		(pin "B2"
+			(uuid "f0c65a15-37cf-4f74-8f26-070f2ed1b2e5")
+		)
+		(pin "A3"
+			(uuid "c89a1426-33c5-491f-9b94-3b8676154bae")
+		)
+		(pin "A8"
+			(uuid "9c4d2f94-2263-460a-aaac-2ab290d35ecf")
+		)
+		(instances
+			(project "USB_C_PD_HUB"
+				(path "/4aa960eb-4a12-47e8-853d-618bd07cfd56/166a307b-ab61-45df-ac2e-4fa9cfd52136"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

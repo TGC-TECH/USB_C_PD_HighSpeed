@@ -385,6 +385,18 @@
     [
       "4aa960eb-4a12-47e8-853d-618bd07cfd56",
       "Root"
+    ],
+    [
+      "9037348b-65a4-4c9a-925c-99409b8deadf",
+      "Hub IC"
+    ],
+    [
+      "166a307b-ab61-45df-ac2e-4fa9cfd52136",
+      "Ports"
+    ],
+    [
+      "428463f4-8ce7-4207-bdb7-37074430b023",
+      "Power"
     ]
   ],
   "text_variables": {}
